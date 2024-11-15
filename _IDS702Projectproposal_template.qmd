@@ -1,0 +1,116 @@
+---
+title: "Project Proposal"
+author: "ALL group member names here"
+subtitle: "Due November 17 at 11:59pm"
+format: pdf
+---
+
+#### Load Packages
+
+```{r load-packages, message = FALSE, warning = FALSE}
+library(tidyverse)
+```
+
+# Dataset 1 (top choice)
+
+**Data source:** NFL Kaggle 2025 Dataset
+
+**Brief description:** Summary of data
+Here, you'll find a summary of each data set in the 2025 Data Bowl, a list of key variables to join on, and a description of each variable. The tracking data is provided by the NFL Next Gen Stats team. The columns labeled with a prefix of "pff_" are provided by Pro Football Focus.
+
+**Research question 1:**
+
+-   Outcome variable (include the name/description and type of variable): Question: Does the distance that a quarterback drops back after the snap affect the probability of a pass completion?
+
+Outcome Variable: Pass Result (passResult) - This is a binary variable, with categories such as "Complete" (C) and "Incomplete" (I), indicating whether the pass was successfully completed.
+Dataset(s): This question would use the Play Data to access pass results and Player Play Data to analyze quarterback dropback distances.
+Reasoning: This question explores how a continuous variable (dropback distance) might influence the likelihood of a binary outcome (pass completion). By focusing on quarterback actions and pass outcomes, it could help understand optimal dropback strategies.
+
+**Research question 2:**
+
+-   Outcome variable (include the name/description and type of variable):
+Question: Does the college a player attended have an effect on their win rate in the NFL?
+
+Outcome Variable: Win Rate - This would be a continuous variable, calculated as the proportion of games won by each player throughout their career. Win rate can be calculated as:
+ 
+Independent Variable: collegeName - This is a nominal variable, representing the college a player attended.
+
+Dataset(s): We’d use Player Data to get the player’s college and Player Play Data to track wins and losses for each game. We can then aggregate the win/loss data across each player’s career to calculate their career win rate.
+
+**Load the data and provide a `glimpse()`**:
+
+```{r data-1, warning=FALSE}
+
+```
+
+**Exploratory Plots:**
+
+```{r plots-1}
+
+```
+
+# Dataset 2
+
+**Data source:**
+
+**Brief description:**
+
+**Research question 1:**
+
+-   Outcome variable (include the name/description and type of variable):
+
+**Research question 2:**
+
+-   Outcome variable (include the name/description and type of variable):
+
+**Load the data and provide a `glimpse()`**:
+
+```{r data-2, warning=FALSE}
+
+```
+
+**Exploratory Plots:**
+
+```{r plots-2}
+
+```
+
+# 
+
+# Dataset 3 (optional)
+
+**Data source:**
+
+**Brief description:**
+
+**Research question 1:**
+
+-   Outcome variable (include the name/description and type of variable):
+
+**Research question 2:**
+
+-   Outcome variable (include the name/description and type of variable):
+
+**Load the data and provide a `glimpse()`**:
+
+```{r data-3, warning=FALSE}
+
+```
+
+**Exploratory Plots:**
+
+```{r plots-3}
+
+```
+
+# 
+
+# Team Charter
+
+#### When will you meet as a team to work on the project components? Will these meetings be held in person or virtually?
+
+#### What is your group policy on missing team meetings (e.g., how much advance notice should be provided)?
+
+#### How will your team communicate (email, Slack, text messages)? What is your policy on appropriate response time (within a certain number of hours? Nights/weekends?)?
+
+#### 
